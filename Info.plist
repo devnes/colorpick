@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>NSPrincipalClass</key>
+        <string>NSApplication</string>
+
+        <key>CFBundleIconFile</key>
+        <string>@ICON@</string>
+
+        <key>CFBundlePackageType</key>
+        <string>APPL</string>
+
+        <key>CFBundleGetInfoString</key>
+        <string></string>
+
+        <key>CFBundleExecutable</key>
+        <string>@EXECUTABLE@</string>
+
+        <key>CFBundleName</key>
+        <string>ColorPick</string>
+
+        <key>CFBundleSignature</key>
+        <string>ColorPick</string>
+
+        <key>CFBundleIdentifier</key>
+        <string>com.rednes.colorpick</string>
+
+        <key>CFBundleDevelopmentRegion</key>
+        <string>English</string>
+
+        <key>LSMinimumSystemVersion</key>
+        <string>10.6.6</string>
+
+        <key>LSApplicationCategoryType</key>
+        <string>public.app-category.utilities</string>
+
+        <!-- 2D drawing on the graphics card -->
+        <key>QuartzGLEnable</key>
+        <true/>
+
+    </dict>
+</plist>
